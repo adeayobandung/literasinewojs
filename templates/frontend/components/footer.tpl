@@ -37,9 +37,7 @@
 				{/if}
 
 				<div class="col-md-2" role="complementary">
-					<a href="{url page="about" op="aboutThisPublishingSystem"}">
-                                                <img class="img-responsive" alt="{translate key="about.aboutThisPublishingSystem"}" src="{$baseUrl}/{$brandImage}">
-                                        </a>
+					
 				</div>
 
 			</div> <!-- .row -->

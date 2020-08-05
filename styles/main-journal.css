@@ -65,12 +65,13 @@ ul.sidemenu a {
     color: #fff;
 }
 .pkp_structure_page {
-    background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/cloth.png);
+    /*background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/cloth.png);*/
+    background-color: #ffffff;
     background-repeat: repeat;
 }
 .pkp_structure_content.container {
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
+    /*border-left: 1px solid gray;
+    border-right: 1px solid gray;*/
     padding-top: 10px;
     background: #fff;
 }

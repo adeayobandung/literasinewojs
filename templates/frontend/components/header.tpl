@@ -37,13 +37,15 @@
 
 		{* Header *}
 		<header class="navbar navbar-default" id="headerNavigationContainer" role="banner">
+			<div class="container">
+				<nav aria-label="{translate|escape key="common.navigation.user"}">
+					{load_menu name="user" id="navigationUser" ulClass="nav nav-pills tab-list pull-right"}
+				</nav>
+			</div>
 
 			{* User profile, login, etc, navigation menu*}
 			<div class="container-fluid">
 				<div class="row">
-					<nav aria-label="{translate|escape key="common.navigation.user"}">
-						{load_menu name="user" id="navigationUser" ulClass="nav nav-pills tab-list pull-right"}
-					</nav>
 					{capture assign="homeUrl"}
 						{if $currentJournal && $multipleContexts}
 							{url page="index" router=$smarty.const.ROUTE_PAGE}
@@ -70,7 +72,7 @@
 				</div><!-- .row -->
 			</div><!-- .container-fluid -->
 
-			<div class="container-fluid">
+			<div class="container">
 
 				<div class="navbar-header">
 
