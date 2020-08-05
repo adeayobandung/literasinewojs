@@ -53,7 +53,7 @@ ul.sidemenu {
 .page-header {
     margin: 5px 0 20px;
     border-bottom: 1px solid #eee;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 .img-header {
     width: 100%;
